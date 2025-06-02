@@ -1,0 +1,19 @@
+site_name: Escape Room Communication Standard (ERCS)
+site_url: https://proffalken.github.io/ercs/
+theme:
+  name: material
+  language: en
+
+nav:
+  - Home: index.md
+  - Structure:
+      - Message Structure: structure/message_structure.md
+      - Sensors: structure/sensors.md
+      - Capabilities: structure/capabilities.md
+      - Naming Convention: structure/naming.md
+  - Messages:
+      - Status Update: messages/status_update.md
+      - Config: messages/config.md
+  - Examples:
+      - Status Update: examples/example-status-update.json
+
